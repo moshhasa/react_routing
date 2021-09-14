@@ -1,10 +1,15 @@
 import React from 'react'
+import { Route } from 'react-router'
 
 const Welcome = () => {
     return (
-        <h1>
-            Wolcome page
-        </h1>
+        <section>
+             <h1> Wolcome page</h1>
+             <Route path="/welcome/new-user">
+                <p>Welome, new user</p>
+             </Route>
+        </section>
+       
     )
 }
 
